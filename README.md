@@ -2,7 +2,10 @@
     <a href="https://github.com/yiisoft" target="_blank">
         <img src="https://avatars0.githubusercontent.com/u/993323" height="100px">
     </a>
-    <h1 align="center">Yii 2 Basic Project Template</h1>
+     <a href="https://www.docker.com/" target="_blank">
+        <img src="https://www.docker.com/sites/default/files/mono_vertical_large.png" height="100px">
+    </a>
+    <h1 align="center">Yii 2 Basic Project Template with Docker-compose </h1>
     <br>
 </p>
 
