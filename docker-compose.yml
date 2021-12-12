@@ -20,6 +20,8 @@ services:
         MYSQL_PASSWORD: 1qaz2wsx
     ports:
         - "9906:3306"
+    volumes:
+      - ./data/db:/var/lib/mysql
     networks:
     - code-network 
   phpmyadmin:

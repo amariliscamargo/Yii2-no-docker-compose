@@ -9,6 +9,38 @@
     <br>
 </p>
 
+Framework Yii2 preparado para iniciar com o docker-compose.
+
+O docker-compose já esta com o php 7.4, apache, mysql, phpmyadmin e mailhog para teste de e-mail.
+
+Para iniciar basta clonar o repositório.
+
+Na raiz do projeto executar o comando:
+
+- composer install
+
+ou 
+
+- php composer install
+
+Em seguida executar o comando:
+
+ - docker-compose up -d
+
+e o framework será iniciado em :
+
+http://localhost:8000
+
+phpmyadmin:
+
+http://localhost:8080
+e o mailhog:
+http://mailhog:8025
+
+Para deixar de executar:
+
+. docker-compose down
+
 Yii 2 Basic Project Template is a skeleton [Yii 2](http://www.yiiframework.com/) application best for
 rapidly creating small projects.
 
