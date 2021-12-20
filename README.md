@@ -23,6 +23,14 @@ ou
 
 - php composer install
 
+Permissão nas pastas:
+
+sudo chown meuusuario:www-data -R runtime/
+
+sudo chown meuusuario:www-data -R web/assets 
+
+ (* www-data é o apache)
+ 
 Em seguida executar o comando:
 
  - docker-compose up -d
